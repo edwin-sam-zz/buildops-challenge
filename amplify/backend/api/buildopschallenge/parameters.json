@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "buildopschallenge",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authbuildopschallenge5ae0a5ef",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+type Employee @model @auth(rules: [{ allow: owner }]) {
+  id: String
+  firstname: String
+  lastname: String
+  skills: [Skill]
+}
+
+type Skill {
+  id: String
+  name: String
+}
