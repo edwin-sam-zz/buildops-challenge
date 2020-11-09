@@ -40,7 +40,7 @@ const Header = () => {
                         Menu
                     </IconButton>
                     <Typography variant="h6">
-                        React User Application
+                        Employee Application
                     </Typography>
                 </Toolbar>
             </AppBar>
