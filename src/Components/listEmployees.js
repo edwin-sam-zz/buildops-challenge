@@ -19,10 +19,8 @@ const listEmployees = () => {
                         <TableRow>
                             <TableCell>Id</TableCell>
                             <TableCell>FirstName</TableCell>
-                            <TableCell align="right">ID</TableCell>
-                            <TableCell align="right">FirstName</TableCell>
-                            <TableCell align="right">LastName</TableCell>
-                            <TableCell align="right">Skills</TableCell>
+                            <TableCell>LastName</TableCell>
+                            <TableCell>Skills</TableCell>
                         </TableRow>
                     </TableHead>
                 </Table>
