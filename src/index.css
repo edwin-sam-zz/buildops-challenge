@@ -13,6 +13,8 @@
   width: 100px;
 }
 
-.addButton {
-  border: 5px solid red;
+.details {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
 }
