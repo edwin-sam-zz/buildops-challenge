@@ -3,7 +3,7 @@
 // import Typography from '@material-ui/core/Typography';
 // import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
-// import logo from '../logo.png'
+
 
 // const Header = () => {
 //     return (
@@ -27,6 +27,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import logo from '../logo.png'
 
 const style = {
     flexGrow: 1
@@ -39,6 +40,7 @@ const Header = () => {
                     <IconButton edge="start" color="inherit" aria-label="Menu">
                         Menu
                     </IconButton>
+                    <img src={logo} className="header-img" />
                     <Typography variant="h6">
                         Employee Application
                     </Typography>
