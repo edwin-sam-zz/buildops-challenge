@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import EmployeeForm from './employeeForm'
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -21,10 +22,14 @@ class listEmployees extends Component {
         // this.reloadEmployeeList = this.reloadEmployeeList.bind(this);
     }
 
+    addEmployee = () => {
+
+    };
+
     render(){
         return (
             <div>
-                <Button variant="contained" color="primary" onClick={() => this.addEmployee()}>
+                <Button variant="contained" color="primary" onClick={() => new EmployeeForm()}>
                     Add Employee
                 </Button>
 
